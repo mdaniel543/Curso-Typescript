@@ -16,7 +16,7 @@ export class GamesService {
     return this.http.get(`${this.API_URI}/games`);
   }
 
-  getGame(id: string) {
+  getGame(id: any) {
     return this.http.get(`${this.API_URI}/games/${id}`);
   }
 
